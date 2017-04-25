@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Nicholas Hall</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,9 +17,12 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,22 +41,22 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
+                <a href="#top" onclick=$( "#menu-close").click();>Nicholas Damian</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#top" onclick=$( "#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
+                <a href="#about" onclick=$( "#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                <a href="#services" onclick=$( "#menu-close").click();>Services</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+                <a href="#portfolio" onclick=$( "#menu-close").click();>Portfolio</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#contact" onclick=$( "#menu-close").click();>Contact</a>
             </li>
         </ul>
     </nav>
@@ -61,144 +64,158 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <div class="outerBox">
+                <div class="marginForBox">
+                    <h1 class="headingText">Nicholas Hall</h1>
+                    <h3 class="headingText">Software Developer</h3>
+                    <br>
+                    <a href="#about" class="btn btn-dark btn-lg headingText">Find Out More</a>
+                </div>
+            </div>
         </div>
     </header>
 
     <!-- About -->
-    <section id="about" class="about">
+    <section class="about" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+            <div class=row>
+                <div class="col-lg-4 col-xs-12">
+                    <img class="my-image img-circle" alt="">
+                </div>
+                <div class="col-lg-8 col-xs-12">
+                    <h1 class="section-heading aboutText">About Me</h1>
+                    <p class="aboutText sizeUp"> I have always enjoyed logical thinking and learning new concepts. This has led me to seek out a career
+                        that is ever-evolving and would provide me with the opportunity to continue to learn and improve.
+                        In college I came upon software development and discovered that it was precisely what I was looking
+                        for. It’s an environment of constant change and progress, which I find very appealing. As well, due
+                        to the nature of development, logical thinking is highly valued. After spending some time researching
+                        the software development path I decided to invest my time in a coding bootcamp.
+                    </p>
                 </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="services" class="bg-primary services">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
+            <div class=row>
+                <div class="col-lg-12 col-xs-12">
+                    <h1 class="section-heading text-center services-font">Services</h1>
                 </div>
-                <!-- /.col-lg-10 -->
+                <div class="col-lg-12 col-xs-12">
+                    <div class="col-lg-1"></div>
+                    <div>
+                        <div class="col-lg-2"><i class="fa fa-android" id="biggerIcon"></i></div>
+                    </div>
+                    <div>
+                        <div class="col-lg-2"><img src="img/logos/Java_logo.svg" class="imageSize" alt=""></div>
+                    </div>
+                    <div>
+                        <div class="col-lg-2"><img src="img/logos/HTML5_1Color_Black.svg" class="imageSize" alt=""></div>
+                    </div>
+                    <div>
+                        <div class="col-lg-2"><img src="img/logos/preview-css3logo.svg" class="imageSize" alt=""></div>
+                    </div>
+                    <div>
+                        <div class="col-lg-2"><img src="img/logos/js1_0.svg" class="imageSize" alt=""></div>
+                    </div>
+                    <div class="col-lg-1"></div>
+
+                </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Callout -->
     <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+        <!--<div class="outerBox1">-->
+        <div class="text-vertical-center outerBox1">
+            <h1>Projects</h1>
         </div>
+        <!--</div>-->
     </aside>
+
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
+                        <div class="portfolioTitle">
+                            <h1>HUG</h1>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
+                                <img class="img-portfolio img-responsive" src="img/HugScreenShot.png">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
+                            <div class="portfolio-item textPortBox">
+                                <a href="#"><img src="img/googleplay.png" class="googleSize" target="_blank"></a>
+                                <p>Hug is a content management application meant for under scoring students in various schools.
+                                    It gives volunteers and HUG specialists every resource they need. A volunteer can go
+                                    to a directory of lesson, give a lesson, see a directory of students, see a student profile,
+                                    update student progress, etc.</p>
+                                <li>Worked with a team of four to create the android side of the appliacation (Three android
+                                    developers and one designer).</li>
                             </div>
+                        </div>
+                        <div class="portfolioTitle">
+                            <h1>CHIRP</h1>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
+                                <img class="img-portfolio img-responsive" src="img/ChirpScreenShot.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item textPortBox">
+                                <a href="https://play.google.com/store/apps/details?id=org.chirp_radio.mobile" target="_blank"><img src="img/googleplay.png" class="googleSize"></a>
+                                <p>Chirp radio is a content management application signed for a radio station located in Chicago.</p>
+                                <li>Replaced out of date logo SVG files along with sizing and desplaying those towards a designers
+                                    specifications.</li>
+                                <li>Went through the application implementing better practices decreasing the amount of skipped
+                                    frames between activity transitions.</li>
+                                <li>Switched the push notification service from a Parse over to Amazon Web Service Cloud Messaging.</li>
+                            </div>
+                        </div>
+                        <div class="portfolioTitle">
+                            <h1>TOGGLIT</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img class="img-portfolio img-responsive" src="img/TogglitScreenShot.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item textPortBox">
+                                <a href="https://play.google.com/store/apps/details?id=com.interapt.togglitdemo" target="_blank"><img src="img/googleplay.png" class="googleSize"></a>
+                                <p>Togglit is Interapts main product. It is a very customizable content management application.</p>
+                                <li>Rebuilt Togglit during the instruction portion of the TEKY program from the ground up in
+                                    a 3 week period to gain a better understanding of the architecture.</li>
+                                <li>Wrote the documentation on 1/3 of the Java classes in the application.</li>
+                            </div>
+                        </div>
+                        <div class="portfolioTitle">
+                            <h1>HIKEIT</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img class="img-portfolio img-responsive" src="img/HikeItScreenShot.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="portfolio-item textPortBox">
+                                <a href="https://play.google.com/store/apps/details?id=com.pathteam.hikeitv2" target="_blank"><img src="img/googleplay.png" class="googleSize"></a>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <!--<a href="#" class="btn btn-dark">View More Items</a>-->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -206,57 +223,35 @@
         </div>
         <!-- /.container -->
     </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-    </section>
-
+    
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container" id="contact">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
+                    <h4><strong>Nicholas Hall</strong>
                     </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <p>421 Main Street #3
+                        <br>Paintsville, KY</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        <li><i class="fa fa-phone fa-fw"></i> (606) 792-9630</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="nicholas4hall@gmail.com">nicholas4hall@gmail.com</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://github.com/NicholasDamian" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/nicholas-hall-397451124/" target="_blank"><i class="fa fa-linkedin  fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <!--<a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>-->
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="text-muted"></p>
                 </div>
             </div>
         </div>
@@ -268,6 +263,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+
 
     <!-- Custom Theme JavaScript -->
     <script>
@@ -320,27 +317,7 @@
                 });
             }
         }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
+   });
     </script>
 
 </body>

@@ -162,11 +162,40 @@ hr.small {
     -o-background-size: cover;
 }
 
+.outerBox{
+    background-color: darkslategrey;
+    width: 36%;
+    height: 223px;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 157px;
+}
+
+.headingText{
+    color: #f6fceb;
+    font-family: 'Josefin Slab', serif;
+}
+
+.marginForBox{
+    padding-top: 10px;    
+}
+
+
 /* About */
 
 .about {
     padding: 50px 0;
 }
+
+.aboutText{
+    color: #016367;
+    font-family: 'Josefin Slab', serif;
+}
+
+.sizeUp{
+    font-size: 20px;
+}
+
 
 /* Services */
 
@@ -178,6 +207,13 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.services-font{
+    color: #f6fceb;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
 /* Callout */
 
 .callout {
@@ -185,11 +221,23 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/anotherMe1.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.outerBox1{
+    padding: 10px;
+    display: block;
+    background-color: darkslategrey;
+    /*width: 80%;*/
+    /*height: 223px;*/
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 157px;
+    font-family: 'Josefin Slab', serif;
 }
 
 /* Portfolio */
@@ -204,11 +252,39 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    height: 625px;
 }
 
 .img-portfolio:hover {
     opacity: 0.8;
 }
+
+.textPortBox{
+height: 625px;
+width: 354px;  
+margin: 0 auto;
+margin-bottom: 30px;
+background-color: #016367;
+color: #f6fceb;
+font-family: 'Josefin Slab', serif;
+font-size: 23px;
+padding: 10px;
+}
+
+/*.marginsForBox{
+    padding: 10px;
+}*/
+
+
+.portfolioTitle{
+color: #016367;
+text-align: center;
+background-color: #f6fceb;
+font-family: 'Josefin Slab', serif;
+font-weight: bold;
+font-size: 90px;
+}
+
 
 /* Call to Action */
 
@@ -220,26 +296,12 @@ hr.small {
     margin: 10px;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
 /* Footer */
 
 footer {
     padding: 100px 0;
+        background-color: #f6fceb
+
 }
 
 #to-top {
@@ -248,3 +310,56 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+/* Green color on two of the divs */
+
+.my-image{
+height: 300px;
+width: 300px;
+background-image: url(../img/me.jpg);
+background-size: cover;
+}
+
+.java-image{
+background-image: url(../img/logos/Java_logo.png);
+background-size: cover;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: #016367;
+}
+
+.about {
+    background-color: #f6fceb 
+}
+
+.portfolio{
+    background-color: #f6fceb
+}
+
+/*.container{
+    background-color: #f6fceb
+}*/
+
+.imageSize{
+    width: 200px;
+}
+
+#biggerIcon{
+    padding-top: 14px;
+    font-size: 200px;
+}
+
+footer{
+    background-color: #016367;
+    font-family: 'Josefin Slab', serif;
+    color: #f6fceb;
+}
+
+.googleSize{
+    height: 25px;
+}
+
+
+
