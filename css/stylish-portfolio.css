@@ -197,17 +197,17 @@ hr.small {
 }
 
 
-/* Services */
+/* Skills */
 
-.services {
+.skills {
     padding: 50px 0;
 }
 
-.service-item {
+.skills-item {
     margin-bottom: 30px;
 }
 
-.services-font{
+.skills-font{
     color: #f6fceb;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
@@ -300,8 +300,8 @@ font-size: 90px;
 
 footer {
     padding: 100px 0;
-        background-color: #f6fceb
-
+    background-color: #f6fceb;
+    font-size: 30px;
 }
 
 #to-top {
@@ -309,6 +309,10 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+.nameSize{
+    font-size: 35px;
 }
 
 /* Green color on two of the divs */
